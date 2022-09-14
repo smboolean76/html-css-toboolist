@@ -1,0 +1,112 @@
+/*---------
+    Reset
+----------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f6f8f9;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*---------
+    Header
+----------*/
+header {
+    background-color: white;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+}
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo {
+    vertical-align: middle;
+}
+
+/*---------
+    Main
+----------*/
+.container {
+    background: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+/*---------
+    Buttons
+----------*/
+.btn {
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+}
+.btn-primary {
+    border: 1px solid #47adf1;
+    background-color: #47adf1;
+    color: #fff;
+}
+.btn-secondary {
+    border: 1px solid #c5cbd0;
+    background-color: transparent;
+    color: #c5cbd0;
+}
+
+.task-buttons {
+    padding: 15px 30px;
+    border-bottom: 2px solid #f6f8f9;
+}
+
+.tasks {
+    padding: 30px;
+    color: #444851;
+}
+.tasks section:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.task-list {
+    list-style: none;
+}
+
+.task-list li {
+    padding: 8px 0;
+}
+
+.circle {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    text-align: center;
+}
+.circle-check {
+    color: green;
+    border-color: green;
+}
+.circle-cross {
+    color: red;
+    border-color: red;
+}
+
+.tag {
+    display: inline-block;
+    padding: 6px 10px;
+    color: #fff;
+    border-radius: 12px;
+    font-size: 12px;
+}
+.tag-blue {
+    background-color: #45abea;
+}
+.tag-purple {
+    background-color: #9c72e4;
+}
